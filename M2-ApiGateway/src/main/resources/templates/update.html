@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<title>BootStrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css"  href="/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="header">
+				<div class="offset-md-4"></div>
+				<div class="col">
+					<h1>TOM_DICK</h1>
+				</div>		
+			</div>
+			<div class="space1"></div>
+			<div class="row" id="menu">
+				<div class="offset-md-3"></div>
+				<div class="col">
+					<form action="existingUser" method="get">
+						<h3>Existing Id : <input type="text" name="userId"><br>
+						Updated values ... <br>
+						<label>Name:-</label>
+						<input type="text" name="nm"><br>
+						<label>E-mail:-</label>
+						<input type="text" name="e-add"><br>
+						<label>Password:-</label>
+						<input type="text" name="pwd">
+						<input type="submit" value="Submit">
+					</h3>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="space2"></div>
+			</div>
+
+			<div class="row" id="footer">
+				<div class="offset-md-4"></div>
+				<div class="col-4">@Copyright: All right reserved </div>		
+			</div>
+		</div>
+	</body>
+</html>
