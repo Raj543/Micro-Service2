@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.example.pojo.Person;
 import com.example.repo.mRepo;
 
+
 @RestController
 @RequestMapping("/insertService")
 //@DependsOn("mRepo")
